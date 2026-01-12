@@ -2,7 +2,7 @@ import random
 
 rows = random.randint(1, 20)
 cols = random.randint(1, 20)
-lists = [[random.randint(1, 100) for x in range(cols)] for y in range(rows)]
+lists = [[random.randint(1, 100) for i in range(cols)] for j in range(rows)]
 
 print('Список: ')
 for row in lists:
